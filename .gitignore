@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Input and output files
+inputs/
+outputs/
+
+# React / Node.js
+node_modules/
+dist/
+
+# macOS
+.DS_Store
+
+# Downloaded TTS models
+models/
