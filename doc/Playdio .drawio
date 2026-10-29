@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9V7dz12z9oUyGMXOpGeG">
+    <mxGraphModel dx="1797" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w_geL-0lQGp1AAryp42o-11" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-18" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="User Selects File" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-21" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="w_geL-0lQGp1AAryp42o-20" value="Yes">
+          <mxGeometry relative="1" x="0.1204" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="300" />
+              <mxPoint x="385" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-27" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-26" value="No">
+          <mxGeometry relative="1" x="0.1667" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Is it Valid?" vertex="1">
+          <mxGeometry height="80" width="130" x="320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-23" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-22" value="Text Chunks">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Process Text into Chunk(s)" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Generate TTS" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-26" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Retry" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-42" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="Audio File">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Combine Audio(s)" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-34" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.902;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="40.7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-39" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-22" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-40" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-30" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="are there remaining Chunks?" vertex="1">
+          <mxGeometry height="80" width="130" x="520" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-38" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.094;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-35" value="Chunk Finishes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="516.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="Play button clicked">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="731" as="sourcePoint" />
+            <mxPoint x="439.9999999999998" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-46" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-45" value="Playback Controls">
+          <mxGeometry relative="1" x="0.162" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="730" />
+              <mxPoint x="620" y="730" />
+            </Array>
+            <mxPoint x="500" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-47" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="w_geL-0lQGp1AAryp42o-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="701" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-52" connectable="0" parent="w_geL-0lQGp1AAryp42o-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Adjusted Audio File" vertex="1">
+          <mxGeometry relative="1" x="0.0619" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Adjust Audio" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="671" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-50" edge="1" parent="1" source="w_geL-0lQGp1AAryp42o-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="w_geL-0lQGp1AAryp42o-49" value="User Exits">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Play Audio" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="End" vertex="1">
+          <mxGeometry height="80" width="120" x="380" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="w_geL-0lQGp1AAryp42o-51" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Load Audio File into Player" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="671" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
